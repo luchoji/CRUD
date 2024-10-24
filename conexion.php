@@ -1,10 +1,10 @@
 <?php
 // Configuración de la conexión a MySQL
-$host = "127.0.0.1"; // Pon aquí el nombre o IP de tu servidor MySQL
-$port = "3306"; // Especifica el puerto 3307
+$host = "localhost"; // Pon aquí el nombre o IP de tu servidor MySQL
+$port = "3306"; // Especifica el puerto 
 $user = "root"; // Usuario de la base de datos MySQL
 $password = ""; // Contraseña de MySQL (en XAMPP suele ser vacío por defecto)
-$database = "prueba"; // Nombre de la base de datos
+$database = "bd"; // Nombre de la base de datos
 
 // Crear la conexión
 $conn = new mysqli($host, $user, $password, $database);
